@@ -7,9 +7,9 @@ import { Toaster } from "@/components/ui/sonner";
 import Head from 'next/head'; 
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Track My Money",
+  title: "MoneyMap",
   description: "A web app to keep track of one's expenses",
-  authors: [{ name: "Harsh Bansal" }, { name: "Hemant Khemka" }],
+  authors: [{ name: "Vivek" }],
   icons: {
 
     icon: '/favicon2.png',
