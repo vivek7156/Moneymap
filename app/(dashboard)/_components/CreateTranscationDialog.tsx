@@ -7,8 +7,7 @@ import {
   DialogTrigger,
   DialogContent,
   DialogTitle,
-  DialogClose,
-  DialogDescription,
+  DialogClose,  
   DialogFooter,
   
 } from "@/components/ui/dialog";

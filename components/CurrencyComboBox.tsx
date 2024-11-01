@@ -26,7 +26,6 @@ import { Currencies, Currency } from "@/lib/currencies"
 import { useMutation, useQuery } from "@tanstack/react-query"
 import SkeletonWrapper from "./SkeletonWrapper"
 import { UserSettings } from "@prisma/client"
-import { UpdateUserCurrencySchema } from "@/schema/userSettings"
 import { UpdateUserCurrency } from "@/app/wizard/_actions/userSettings"
 import { toast } from "sonner"
 
@@ -60,7 +59,7 @@ export function CurrencyComboBox() {
             Currencies.find((c) => c.value == data.currency) || null
         );
     },
-    onError: (e) => {
+    onError: () => {
         console.error("Something went wrong", {
             id: "update-currency",
         });

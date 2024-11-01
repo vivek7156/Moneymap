@@ -30,7 +30,6 @@ import { DataTableFacetedFilter } from '@/components/datatable/FacetedFilters'
 import { DataTableViewOptions } from '@/components/datatable/ColumnToggle'
 import { Button } from '@/components/ui/button'
 import { download, generateCsv, mkConfig} from "export-to-csv"
-import { Description } from '@radix-ui/react-dialog'
 import { DownloadIcon, MoreHorizontal, TrashIcon } from 'lucide-react'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@radix-ui/react-dropdown-menu'
 import { DropdownMenuItem } from '@/components/ui/dropdown-menu'

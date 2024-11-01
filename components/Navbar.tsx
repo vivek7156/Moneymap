@@ -6,7 +6,7 @@ import { Button, buttonVariants } from './ui/button';
 import { cn } from '@/lib/utils';
 import { UserButton } from '@clerk/nextjs';
 import { ThemeSwitcherBtn } from './ThemeSwitcherBtn';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
 import { Menu } from 'lucide-react';
 
