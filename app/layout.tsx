@@ -5,7 +5,9 @@ import { ClerkProvider } from "@clerk/nextjs";
 import RootProviders from "@/components/providers/RootProviders";
 import { Toaster } from "@/components/ui/sonner";
 import Head from 'next/head'; 
+
 const inter = Inter({ subsets: ["latin"] });
+
 export const metadata: Metadata = {
   title: "MoneyMap",
   description: "A web app to keep track of one's expenses",
@@ -31,11 +33,16 @@ export default function RootLayout({
         }}
       >
         <Head>
+          <title>Moneymap</title>
           <link rel="icon" href="/favicon2.png" />
         </Head>
         <body className={inter.className}>
           <Toaster richColors position="bottom-right" />
-          <RootProviders>{children}</RootProviders>
+          <RootProviders>
+            <main>
+              {children}
+              </main>
+          </RootProviders>
         </body>
       </html>
     </ClerkProvider>
