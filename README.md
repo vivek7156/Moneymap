@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MoneyMap
 
-## Getting Started
+MoneyMap is a web application designed to help users manage their finances effectively. With MoneyMap, users can track expenses, monitor income, and gain insights into their financial habits, all in one intuitive platform.
 
-First, run the development server:
+## 🌟 Features
 
+- **Expense Tracking**: Add, edit, and categorize expenses effortlessly.
+- **Income Management**: Keep a record of all income sources.
+- **Data Visualization**: Get insights through charts and graphs for better decision-making.
+- **Multi-Currency Support**: Manage finances in various currencies.
+- **Responsive Design**: Accessible on all devices, from desktops to mobile phones.
+
+## 🚀 Live Demo
+Check out the live version of MoneyMap: [MoneyMap](https://moneymap-ju9k.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL
+- **Deployment**: Vercel
+
+## 📦 Installation
+
+Follow these steps to set up MoneyMap locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/vivek7156/moneymap.git
+   cd moneymap
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**:
+   Create a `.env` file in the root directory with the following variables:
+   ```env
+   DATABASE_URL=your_postgresql_database_url
+   NEXT_PUBLIC_API_URL=your_backend_api_url
+   ```
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+
+## 🧪 Testing
+
+Run the following command to execute tests:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+.
+├── public         # Static assets
+├── src
+│   ├── components # Reusable components
+│   ├── pages      # Next.js pages
+│   ├── styles     # Tailwind CSS configuration
+│   ├── utils      # Utility functions
+│   └── hooks      # Custom hooks
+├── .env.example   # Environment variable example file
+└── README.md      # Project documentation
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 Deployment
 
-## Learn More
+MoneyMap is deployed on Vercel. Push changes to the `main` branch to trigger automatic deployment.
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Follow these steps to contribute:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add a feature"
+   ```
+4. Push your changes:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-## Deploy on Vercel
+## 📧 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For any inquiries or support, feel free to contact:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Author**: Vivek Singh
+- **Email**: [my-email](mailto:viveksingh7156@gmail.com)
+- **GitHub**: [my-github-profile](https://github.com/vivek7156)
+
+---
+
+**Disclaimer**: MoneyMap is a personal project designed for educational purposes. Use it at your own discretion.
+
