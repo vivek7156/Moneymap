@@ -41,7 +41,7 @@ export default function RootLayout({
           <RootProviders>
             <main>
               {children}
-              </main>
+            </main>
           </RootProviders>
         </body>
       </html>
