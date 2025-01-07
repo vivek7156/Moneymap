@@ -13,6 +13,16 @@ MoneyMap is a web application designed to help users manage their finances effec
 ## 🚀 Live Demo
 Check out the live version of MoneyMap: [MoneyMap](https://moneymap-ju9k.vercel.app/)
 
+### Part - 1
+https://github.com/user-attachments/assets/03ea3862-1c51-438f-9806-aeecb2654fc7
+
+### Part - 2
+https://github.com/user-attachments/assets/6e2ba639-b4c8-4a4b-96f6-55129ab2a22e
+
+### Part - 3
+https://github.com/user-attachments/assets/746c3530-27d7-4b30-a034-a10ae335a096
+
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js, Tailwind CSS
