@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/746c3530-27d7-4b30-a034-a10ae335a096
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express
+- **Backend**: Next.js
 - **Database**: PostgreSQL
 - **Deployment**: Vercel
 
